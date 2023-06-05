@@ -1,0 +1,42 @@
+h1:hover{
+    color: blueviolet;
+    background: darkgray;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 15px;
+    padding: 10px;
+}
+
+.middle:focus{
+    color: blueviolet;
+    font-weight: 700;
+}
+
+a:visited {
+    color: blueviolet;
+}
+
+li:first-child{
+    color: cadetblue;
+}
+
+li:last-child{
+    color: blueviolet;
+    background-color: coral;
+}
+
+li:nth-child(2n){
+    color: chartreuse;
+}
+
+h3::before{
+    content: 'Hello , ';
+    color: aliceblue;
+    background-color: blue;
+}
+
+h3::after{
+  content: ' Dont Lie ' ;
+  color: chocolate;
+  background-color: darkslateblue;
+}
